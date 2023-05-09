@@ -15,7 +15,7 @@ header {
     height: 100px;
 }
 
-#jumbotron #about {
+#jumbotron , #about {
     background-color: rgb(26, 188, 156);
 }
 
@@ -25,7 +25,7 @@ header {
     
 }
 
-.content-jmb, .content-portfolio, .content-portfolio-title {
+.content-jmb, .content-portfolio, .content-portfolio-title, .content-about-title {
     
     margin: 20px 0;
 }
