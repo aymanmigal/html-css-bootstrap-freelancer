@@ -14,3 +14,15 @@ header {
     background-color: yellow;
     height: 100px;
 }
+
+#jumbotron {
+    background-color: rgb(26, 188, 156);
+}
+
+.content-jmb {
+    background-color: yellow;
+    height: 400px;
+    margin: 20px 0;
+}
+
+
