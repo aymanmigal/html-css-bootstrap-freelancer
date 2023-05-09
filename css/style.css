@@ -15,14 +15,29 @@ header {
     height: 100px;
 }
 
-#jumbotron {
+#jumbotron #about {
     background-color: rgb(26, 188, 156);
 }
 
 .content-jmb {
     background-color: yellow;
     height: 400px;
+    
+}
+
+.content-jmb, .content-portfolio, .content-portfolio-title {
+    
     margin: 20px 0;
 }
 
+.content-portfolio-title, .content-about-title {
+    background-color: red;
+    height: 100px;
+}
+
+.content-portfolio {
+    background-color: orange;
+    height: 300px;
+    
+}
 
