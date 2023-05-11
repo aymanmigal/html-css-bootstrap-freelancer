@@ -16,6 +16,9 @@ header {
     background-color: yellow;
     height: 100px;
 }
+#portfolio {
+    padding: 30px 0;
+}
 
 #jumbotron , #about {
     background-color: rgb(26, 188, 156);
@@ -37,16 +40,9 @@ header {
     margin: 20px 0;
 }
 
-.content-portfolio-title, .content-about-title {
-    background-color: red;
-    height: 100px;
-}
 
-.content-portfolio {
-    background-color: orange;
-    height: 300px;
-    
-}
+
+
 
 .top-footer{
     background-color: #3a546d ;
@@ -100,16 +96,40 @@ header {
 .line-star:before, .line-star:after  {
     content: '';
     display: inline-block;
-    width: 130px;
+    width: 90px;
     height: 4px;
-    background-color: white;
-
+    
+    
+}
+.line-star-white:before, .line-star-white:after  {
+   background-color: white;
+    
+    
+}
+.line-star-black:before, .line-star-black:after  {
+    background-color: black;
+     
+     
+ }
+.line-star:before, .line-star:after  {
+    content: '';
+    display: inline-block;
+    width: 120px;
+    height: 4px;
+    
     
 }
 .fa-star {
-    margin: 0 7px;
+    margin: 0 3px;
 }
 .line-skills{
     font-size: 16px;
     margin-top: 20px;
+}
+
+.line-star-balck {
+    color: black;
+}
+.line-star-white {
+    color: white;
 }
