@@ -49,13 +49,9 @@ header {
 
 } 
 
-.content-footer {
-    background-color: green;
-    height: 200px;
-}
 
 .bottom-footer{
-    height: 160px;
+    
     background-color: #2c3e50;
 
 } 
@@ -132,4 +128,50 @@ header {
 }
 .line-star-white {
     color: white;
+}
+
+
+input , textarea{
+    
+    border: none;
+    border-bottom: solid 1px grey;
+    margin: 10px 0;
+    width: 100%;
+    padding: 4px 0;
+}
+
+.btn-green{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    
+
+}
+.btn-green:hover {
+    background-color: rgb(18, 164, 135);
+    color: white;
+    
+
+}
+
+
+.footer-icon {
+    border-radius: 100px ;
+    padding: 9px 13px;
+    border: 1px solid white;
+    margin: 0 3px;
+}
+.content-footer{
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.green {
+    color: rgb(25, 194, 152);
+}
+
+
+.copyright {
+    color: white;
+    font-size: 10px;
 }
